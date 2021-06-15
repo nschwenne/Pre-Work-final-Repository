@@ -1,4 +1,6 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript"; 
 
-document.querySelector('body').appendChild(h2); 
+const printD4 = document.getElementById(printD4);
+printD4.addEventListener('click', function() {
+    console.log(Math.floor(Math.random() * 4) +1)
+})
+document.querySelector(placeHolderD4) = printD4
